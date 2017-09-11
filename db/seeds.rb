@@ -1,0 +1,36 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+User.delete_all 
+User.create(name:  "Philip Zak", quote: "Hope for the best, plan for the worst. - Lee Child" )
+User.create(name:  "Oswaldo Almazo", quote: "what is life?")
+User.create(name:  "Asher Shaheen", quote: "I want to put a ding in the universe. - Steve Jobs " )
+User.create(name:  "Carly Warner", quote: "I'm going to make him an offer he can't refuse - Marlon Brando" )
+User.create(name:  "Rajiste Bennin", quote: "Show me the money! - Cuba Gooding Jr. (Jerry McGuire)")
+User.create(name:  "Alexander Calleia", quote: "Afoot and lighthearted I travel the open road -Walt Whitman")
+User.create(name:  "Aury Rodriguez", quote: "Anything is possible, anything can be.")
+User.create(name:  "Daniel Beebe", quote: "Great men are almost always bad men.  - John Dalberg-Acton, 1st Baron Acton")
+User.create(name:  "Mitchel Severe", quote: "Change your thoughts and you change your world.")
+User.create(name:  "Jake Meltzer", quote: "The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who attempt to poison and destroy my brothers. And you will know my name is the Lord when I lay my vengeance upon thee. -Ezekiel 25:17")
+User.create(name:  "Ryan Edwards", quote: "America is all about speed. Hot, nasty, badass speed. -Eleanor Roosevelt, 1936")
+User.create(name:  "Amidou Kante", quote: "I like my coffee like I like my women - Ari Brenner the 🐐" )
+User.create(name:  "Militsa Neykova", quote: "The best preparation for tomorrow is doing your best today -H.Jackson brown,Jr")
+User.create(name:  "Jason Rowland", quote: "Greatness and madness are next door neighbors and they borrow each others sugar. -Joe Rogan")
+User.create(name:  "Mark Delos Reyes", quote: "Good artists copy, great artists steal - picasso")
+User.create(name:  "Franklin Lema", quote: "Ppl are stupid. they will believe something because they fear its true or want it to be true. Wizards First Rule")
+User.create(name:  "Julia Graves", quote: "Sometimes Sonja has to go commando. What can I say? - Sonja Morgan, Real Housewives of New York")
+User.create(name:  "Brandon Hew", quote: "I dont have one.")
+User.create(name:  "Karen Baque ", quote: "things always happen for a reason")
+User.create(name:  "Tom Santos", quote: "The only true wisdom is knowing you know nothing. -Socrates")
+User.create(name:  "Seye Sijuwade", quote: "These are dark times, there is no denying - Minister Rufus Scrimgeour")
+User.create(name:  "Ivan Alvarez", quote: "To every man upon this earth Death cometh soon or late. And how can man die better Than facing fearful odds, For the ashes of his fathers, And the temples of his gods  --Thomas Babington Macaulay, Lays of Ancient Rome")
+User.create(name:  "Briseida Montiel", quote: "Art should comfort the disturbed and disturb the comfortable. ― Banksy" )
+User.create(name:  "Bianca Cortes", quote: "It may be that when we no longer know what to do, we have come to our real work and when we no longer know which way to go, we have begun our real journey. The mind that is not baffled is not employed. The impeded stream is the one that sings." )
+User.create(name:  "Hao Sun", quote: "Don't stay in bed, unless you can make money in bed. by George Burns")
+User.create(name:  "Mark Zheng Ma", quote: "Nothing is true, everything is permitted. --Assassin's Creed")
+User.create(name:  "Dennis Luo", quote: "If opportunity doesn't knock, build a door. - Milton Berle")
+User.create(name:  "Rana Bhattacharyya", quote: "Everything you’ve ever wanted is on the other side of fear. - George Adair")
